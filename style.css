@@ -43,9 +43,8 @@ body::before {
 }
 
 header {
-  margin: 2.5em auto 0 auto;
+  margin: 2.5em auto 2em auto;
   text-align: center;
-  line-height: 0.6;
 }
 
 header p {
@@ -55,6 +54,7 @@ header p {
 
 h1 {
   font-weight: 400;
+  margin-bottom: 0em;
 }
 
 #container {
@@ -133,14 +133,28 @@ form {
   border: none;
 }
 
+.clue {
+  font-size: smaller;
+}
+
+body {
+  font-size: smaller;
+}
+
 @media (min-width: 576px) {
   #container {
     max-width: 540px;
+  }
+  body {
+    font-size: small;
   }
 }
 
 @media (min-width: 768px) {
   #container {
     max-width: 720px;
+  }
+  body {
+    font-size: large;
   }
 }
